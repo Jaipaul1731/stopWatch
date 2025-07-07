@@ -44,12 +44,12 @@ const StopWatch = () => {
       <h1>Stopwatch</h1>
 
       <div className="time-display">
-        <span>Time</span>
+        <span>Time: </span>
         <span>
           {minutes}:{seconds}
         </span>
       </div>
-
+      <br />
       <button onClick={handleStartStop}>{isRunning ? "Stop" : "Start"}</button>
 
       <button onClick={handleReset}>Reset</button>
